@@ -38,7 +38,7 @@ function showLoading() {
     const tableBody = document.querySelector("tbody");
     tableBody.innerHTML = `
         <tr>
-            <td colspan="4" class="text-center">Loading...</td>
+            <td colspan="6" class="text-center">Loading...</td>
         </tr>
     `;
 }
